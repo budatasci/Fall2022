@@ -7,7 +7,7 @@ Table of Contents
 * [Excercises](#exercises) 
 
 ## What is SQL?
-SQL is short for Structure Query Language. It is a language used to query data from a database. 
+SQL is short for Structure Query Language. It is a language used to grab data from a database. 
 
 ## Workshop Description
 In this workshop, you will learn how run basic SQL commands. The database we will be using for our examples has the folllowing schema:
@@ -52,7 +52,10 @@ Used to filter records
 
 ### Additional Practice Questions
 
-
+1. How many total orders have Speedy Express shipped?
+2. Which employee has completed the most orders? How many?
+3. What product is most bought (quantity-wise) by Germany? How many?
+4. Which product is most ORDERED by Germany? How many?
 
 
 

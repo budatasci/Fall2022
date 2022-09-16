@@ -50,6 +50,66 @@ Used to filter records
     SELECT CustomerName FROM Customers WHERE Country='France';
     ```
 
+
+
+## Sorting with ORDER BY
+
+#### ORDER BY clause allows user to sort data by particular columns 
+
+Select all columns from `Suppliers` in ascending alphabetical order
+```
+SELECT * 
+FROM Suppliers 
+ORDER BY City;
+```
+
+#### What is about if we add DESC in the end? Try it!
+```
+SELECT * 
+FROM Suppliers 
+ORDER BY City DESC;
+```
+
+#### Tip: ORDER BY must always be the last clause in a select statement
+```
+SELECT * 
+FROM Suppliers 
+WHERE SupplierID < 10
+ORDER BY City;
+```
+#### Sorting by Column Position 
+```
+SELECT * 
+FROM Suppliers 
+ORDER BY 3;
+```
+#### * 3 means 3rd column
+
+## Grouping Data
+
+##### GROUP BY
+##### HAVING
+```
+SELECT ContactName FROM Suppliers 
+WHERE SupplierID < 10
+GROUP BY Country;
+```
+#### Tip: NULLs will be grouped together if your GROUP BY column contains NULLS
+
+### WHERE vs. HAVING 
+#### WHERE does not work for groups, WHERE filters on rows. Instead use HAVING clause to filter for groups.
+#### WHERE filters before data is grouped
+#### HAVING filters after data is grouped 
+#### Rows eliminated by the WHERE clause will not be a included in the gorup 
+```
+SELECT * 
+FROM Products
+WHERE SupplierID >= 10
+GROUP BY Price
+HAVING ProductID BETWEEN 30 and 40;
+```
+
+
 ### Additional Practice Questions
 
 1. How many total orders have Speedy Express shipped?

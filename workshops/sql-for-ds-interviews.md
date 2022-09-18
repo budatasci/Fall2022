@@ -2,12 +2,18 @@
 
 Table of Contents
 * [What is SQL](#what-is-sql)
+* [What are ER Diagrams](#what-are-er-diagrams)
 * [Workshop Description](#workshop-description)
 * [Requirements](#requirements)
 * [Excercises](#exercises) 
 
 ## What is SQL?
 SQL is short for Structure Query Language. It is a language used to grab data from a database. 
+
+## What are ER Diagrams?
+Entity Relationship Diagrams show how each table in a database are related to each other.
+
+For example, a database can contain tables of _Customers_ and _Orders_, where each order has a unique order ID that is connected to a unique customer ID in the _Customers_ table.
 
 ## Workshop Description
 In this workshop, you will learn how run basic SQL commands. The database we will be using for our examples has the folllowing schema:
@@ -27,7 +33,7 @@ In this workshop, you will learn how run basic SQL commands. The database we wil
 * To run the following SQL commands and to practice for your upcoming interview go [here](https://www.stratascratch.com/).
 
 ## Exercises 
-### SELECT 
+### **SELECT**
 1. Select all rows from the table `Customers`
 
     ```
@@ -41,7 +47,7 @@ In this workshop, you will learn how run basic SQL commands. The database we wil
     ```
 
 
-### WHERE 
+### **WHERE** 
 Used to filter records
 
 1. Return all the names of customers who live in France
@@ -52,9 +58,9 @@ Used to filter records
 
 
 
-## Sorting with ORDER BY
+## Sorting with _ORDER BY_
 
-#### ORDER BY clause allows user to sort data by particular columns 
+#### ORDER BY clause allows users to sort data by particular columns 
 
 Select all columns from `Suppliers` in ascending alphabetical order
 ```
@@ -110,7 +116,7 @@ HAVING ProductID BETWEEN 30 and 40;
 ```
 
 
-### Additional Practice Questions
+# Additional Practice Questions
 
 1. How many total orders have Speedy Express shipped?
 2. Which employee has completed the most orders? How many?

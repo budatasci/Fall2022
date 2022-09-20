@@ -164,7 +164,7 @@ SELECT <column(s)> FROM TABLE_A JOIN TABLE_B ON TABLE_A.KEY = TABLE_B.KEY;
 ### `INNER JOIN` 
 INNER JOIN the default JOIN clause and it will join two or more tables based on matching column values 
 
-![](/Fall2022/workshops/sql-for-ds-interviews/img/inner-join.png)
+![](/workshops/sql-for-ds-interviews/img/inner-join.png)
 
 15. Return the order ID and customer name after joining `ORDERS` and `Customers`
 
@@ -176,7 +176,7 @@ INNER JOIN the default JOIN clause and it will join two or more tables based on 
 
 A LEFT JOIN will keep all the records from the first table and only include matching records from the second table
 
-![](/Fall2022/workshops/sql-for-ds-interviews/img/left-join.png)
+![](/workshops/sql-for-ds-interviews/img/left-join.png)
 
 16. Try replacing the INNER JOIN in the previous command with LEFT JOIN and compare the differences
 
@@ -184,7 +184,7 @@ A LEFT JOIN will keep all the records from the first table and only include matc
 
 A RIGHT JOIN will keep all the records from the second table and only include matching records from the first table
 
-![](/Fall2022//workshops/sql-for-ds-interviews/img/right-join.png)
+![](/workshops/sql-for-ds-interviews/img/right-join.png)
 
 ## Practice Problems
 

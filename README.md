@@ -32,7 +32,7 @@ Please contact Christina Xu (cjxu@bu.edu) for any questions/comments/contributio
 
 * [Instagram](https://www.instagram.com/bu_dsa/)
 
-![](/Fall2022/img/socials_qr_code.png)
+![](/img/socials_qr_code.png)
 
 
 

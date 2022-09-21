@@ -1,5 +1,7 @@
 # Fall 2022 Event Schedule
 
+Meetings at 5-6pm every other Thursday at CAS 211
+
 | Date | Event| Prerequisites |
 | :-----: | :---: | :---: |
 | 9/22| [SQL for Data Science Interviews](workshops/sql-for-ds-interviews.md)| None |

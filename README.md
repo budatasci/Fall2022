@@ -1,6 +1,8 @@
 # Fall 2022 Event Schedule
 
-Meetings at 5-6pm every other Thursday at CAS 211
+Meetings at 5-6pm every other Thursday at CAS 211 
+
+Please contact Christina Xu (cjxu@bu.edu) for any questions/comments/contributions.
 
 | Date | Event| Prerequisites |
 | :-----: | :---: | :---: |
@@ -10,6 +12,28 @@ Meetings at 5-6pm every other Thursday at CAS 211
 | 11/3| TBD  |  |
 | 11/17| TBD |  |
 | 12/1| TBD |  |
+
+
+# E-Board
+ *President*, Christina Xu \
+ *Vice Presiden*, Kolvin Liu \
+ *Secretary*, Andy Yang \
+*Treasurer*, Vy Nguyen\
+*Marketing Chair*, Lavya Midha \
+*Tech Team*, Ryan Nie \
+*Tech Team*, Weining Mai \
+*Tech Team*, Yuyang Wang \
+*Tech Team*, Serena Theobald 
+
+# Let's connect!
+* [Slack](https://join.slack.com/t/budatasci/shared_invite/zt-1fo2owr93-m823dw3uKT2p4mDWbCcxEg) 
+
+* [Website](https://www.budatasci.com/)
+
+* [Instagram](https://www.instagram.com/bu_dsa/)
+
+![](/Fall2022/img/socials_qr_code.png)
+
 
 
 

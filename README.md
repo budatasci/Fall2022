@@ -6,7 +6,7 @@ Please contact Christina Xu (cjxu@bu.edu) for any questions/comments/contributio
 
 | Date | Event| Prerequisites |
 | :-----: | :---: | :---: |
-| 9/22| [SQL for Data Science Interviews](workshops/sql-for-ds-interviews.md)| None |
+| 9/22| [SQL for Data Science Interviews](/workshops/sql-for-ds-interviews/sql-for-ds-interviews.md)| None |
 | 10/6|  Creating a GitHub Portfolio | <ul><li>GitHub account</li><li>Preferred text editor (eg.VSCode)</li></ul>
 | 10/20| Python for Data Science Intervews |<ul><li>Python IDE</ul> |
 | 11/3| TBD  |  |
@@ -16,7 +16,7 @@ Please contact Christina Xu (cjxu@bu.edu) for any questions/comments/contributio
 
 # E-Board
  *President*, Christina Xu \
- *Vice Presiden*, Kolvin Liu \
+ *Vice President*, Kolvin Liu \
  *Secretary*, Andy Yang \
 *Treasurer*, Vy Nguyen\
 *Marketing Chair*, Lavya Midha \

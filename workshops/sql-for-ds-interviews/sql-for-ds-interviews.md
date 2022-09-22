@@ -75,8 +75,7 @@ WHERE is used to filter columns based on certain conditions
 
 ### `GROUP BY`
 A Group By clause allows us to 
-  group together tuples thta have a common value 
-  apply an aggregate function to the tuples in each subgroup 
+  group together tuples thta have a common value and apply an aggregate function to the tuples in each subgroup 
   
 7. What is the average quantity for each `ORDERID` in `OrderDetails`?
     ```

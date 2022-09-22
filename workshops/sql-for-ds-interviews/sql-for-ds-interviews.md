@@ -190,7 +190,7 @@ A LEFT JOIN will keep all the records from the first table and only include matc
 
 A RIGHT JOIN will keep all the records from the second table and only include matching records from the first table
 
-![](/workshops/sql-for-ds-interviews/workshops/img/right-join.png)
+![](/workshops/sql-for-ds-interviews/img/right-join.png)
 
 ## Practice Problems
 

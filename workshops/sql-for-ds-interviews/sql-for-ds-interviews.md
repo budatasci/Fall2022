@@ -74,9 +74,11 @@ WHERE is used to filter columns based on certain conditions
     ```
 
 ### `GROUP BY`
-
+A Group By clause allows us to 
+  group together tuples thta have a common value 
+  apply an aggregate function to the tuples in each subgroup 
+  
 7. What is the average quantity for each `ORDERID` in `OrderDetails`?
-
     ```
     SELECT ORDERID, AVG(Quantity) FROM OrderDetails GROUP BY ORDERID;
     ```
@@ -104,10 +106,10 @@ The ORDER BY clause allows us to sort data by particular columns
     SELECT * FROM Suppliers ORDER BY City;
     ```
 
-10. What about if we add `DESC` in the end? Try it!
+10. What about if we add `DESC` in the end? Try it! And also sort more than one columns?
 
     ```
-    SELECT * FROM Suppliers ORDER BY City DESC;
+    SELECT * FROM Suppliers ORDER BY Country, City DESC;
     ```
 
     **Tip: `ORDER BY` must always be the last clause in a `SELECT` statement**

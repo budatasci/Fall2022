@@ -88,7 +88,7 @@ The HAVING clause was added to SQL because the `WHERE` clause cannot be used to 
 
 Key Idea: `WHERE` filters before data is grouped, `HAVING` filters after data is grouped 
 
-8. Which countries in `Customers` have more than 10 customers? Return both the country and the number of customers in each one
+8. Which countries in `Customers` have more than 10 customers? 
 
     ```
     SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country

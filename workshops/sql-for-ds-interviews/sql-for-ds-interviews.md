@@ -1,7 +1,7 @@
 # SQL for Data Science Interviews 
 
 Table of Contents
-* [What is SQL](#what-is-sql)
+* [What is SQL?](#what-is-sql)
 * [Workshop Description](#workshop-description)
 * [Requirements](#requirements)
 * [Excercises](#exercises) 
@@ -32,13 +32,13 @@ In this workshop, you will learn how run basic SQL commands. The database we wil
 ## Exercises 
 ### `SELECT` 
 
-1. Select all rows from the table `Customers`
+1. Select all records from the table `Customers`
 
     ```
     SELECT * FROM Customers;
     ```
 
-2. Select the columns `CustomerName`, `City` from  `Customers`
+2. Select the records in columns `CustomerName`, `City` from  `Customers`
 
     ```
     SELECT CustomerName, City FROM Customers;
@@ -57,6 +57,11 @@ In this workshop, you will learn how run basic SQL commands. The database we wil
     ```
     SELECT AVG(Price) FROM Products;
     ```
+    **Tip: You can round to 2 decimal places by using the ROUND() function.**
+
+    ```
+    SELECT ROUND(AVG(Price),2) FROM Products;
+    ```
 
 5. Return the total price of products
 
@@ -74,20 +79,21 @@ WHERE is used to filter columns based on certain conditions
     ```
 
 ### `GROUP BY`
-
+A GROUP BY clause allows us to 
+  group together tuples that have a common value and apply an aggregate function to the tuples in each subgroup 
+  
 7. What is the average quantity for each `ORDERID` in `OrderDetails`?
-
     ```
     SELECT ORDERID, AVG(Quantity) FROM OrderDetails GROUP BY ORDERID;
     ```
-    **Tip: NULLs will be grouped together if your GROUP BY column contains NULLS***
+    **Tip: NULLs will be grouped together if your GROUP BY column contains NULLS**
 
 ### `HAVING`
-The HAVING clause was added to SQL because the `WHERE` clause cannot be used to filter for groups or aggregate functions. 
+The HAVING clause was added to SQL because the WHERE clause cannot be used to filter for groups or aggregate functions. 
 
-Key Idea: `WHERE` filters before data is grouped, `HAVING` filters after data is grouped 
+**Key Idea: `WHERE` filters before data is grouped, `HAVING` filters after data is grouped**
 
-8. Which countries in `Customers` have more than 10 customers? Return both the country and the number of customers in each one
+8. Which countries in `Customers` have more than 10 customers? 
 
     ```
     SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country
@@ -98,16 +104,16 @@ Key Idea: `WHERE` filters before data is grouped, `HAVING` filters after data is
 
 The ORDER BY clause allows us to sort data by particular columns 
 
-9. Select all columns from `Suppliers` in ascending alphabetical order
+9. Select all records from `Suppliers` in ascending alphabetical order
 
     ```
     SELECT * FROM Suppliers ORDER BY City;
     ```
 
-10. What about if we add `DESC` in the end? Try it!
+10. What about if we add `DESC` in the end? Try it! And also sort more than one columns?
 
     ```
-    SELECT * FROM Suppliers ORDER BY City DESC;
+    SELECT * FROM Suppliers ORDER BY Country, City DESC;
     ```
 
     **Tip: `ORDER BY` must always be the last clause in a `SELECT` statement**
@@ -121,7 +127,7 @@ The ORDER BY clause allows us to sort data by particular columns
 ### Sorting by Column Index 
 Alternatively, we can order by the column index. In SQL, the column index begins at 1.
 
-11. So if we wanted to select all columns from  `Suppliers`, ordered by ascending contact name, we would run the following command since `ContactName` is the third columm in our table.
+11. So if we wanted to select all records from  `Suppliers`, ordered by ascending contact name, we would run the following command since `ContactName` is the third columm in our table.
 
     ```
     SELECT * 
@@ -148,7 +154,7 @@ LIKE is a special operator used with the WHERE clause to search for a specific p
     ```
     SELECT * FROM Customers WHERE CustomerName LIKE 'C%a';
     ```
-14. Select all the entries where postal codes that have an `2` in the second position
+14. Select all the records where postal codes that have an `2` in the second position
 
     ```
     SELECT * FROM Customers WHERE PostalCode LIKE '_2%';
@@ -166,7 +172,7 @@ INNER JOIN the default JOIN clause and it will join two or more tables based on 
 
 ![](/workshops/sql-for-ds-interviews/img/inner-join.png)
 
-15. Return the order ID and customer name after joining `ORDERS` and `Customers`
+15. Return the order ID and customer name after joining `ORDERS` and `Customers`\
 
     ```
     SELECT Orders.OrderID, Customers.CustomerName FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
@@ -199,7 +205,7 @@ A RIGHT JOIN will keep all the records from the second table and only include ma
 A command to insert data into a table
 
     INSERT INTO table_name (column_1, column_2, column_3)
-    VALUES (value_1, 'value_2', value_3)
+    VALUES (value_1, 'value_2', value_3);
         
 
 ### `UPDATE`

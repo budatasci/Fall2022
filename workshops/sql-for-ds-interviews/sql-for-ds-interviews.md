@@ -27,7 +27,7 @@ In this workshop, you will learn how run basic SQL commands. The database we wil
 | Suppliers | 29 |
 
 ## Requirements 
-* To run the following SQL commands and to practice for your upcoming interview go [here](https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_all).
+* To run the following SQL commands and to practice for your upcoming interview go [here](https://www.w3schools.com/sql/trysql.asp?filename=trysql_asc).
 
 ## Exercises 
 ### `SELECT` 

@@ -194,6 +194,8 @@ A RIGHT JOIN will keep all the records from the second table and only include ma
 
 ## Practice Problems
 
+[Link](https://www.w3schools.com/sql/trysql.asp?filename=trysql_asc)
+
 1. How many total orders have Speedy Express shipped?
 2. Which employee has completed the most orders? How many?
 3. What product is most bought (quantity-wise) by Germany? How many?

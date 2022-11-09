@@ -1,3 +1,7 @@
+**Building a Machine Learning Model:**
+
+Machine learning (ML) is widely recognized as the methodology of choice in Breast Cancer pattern classification and forecast modelling. The early diagnosis of breast cancer can improve the prognosis and chance of survival significantly, as it can promote timely clinical treatment to patients. Further accurate classification of benign tumors can prevent patients undergoing unnecessary treatments. Thus, the correct diagnosis of BC and classification of patients into malignant or benign groups is the subject of much research. Because of its unique advantages in critical features detection from complex cancer datasets, ML is widely recognized as the methodology of choice in breast cancer pattern classification and forecast modelling. Therefore, in this workshop, we'll learn how to build a machine learning model on a breast cancer dataset.
+
 **About Cloning a Repository:**
 
 You can clone a repository from GitHub to make it easier to add or remove files, and push larger commits. When you clone a repository, you copy the repository from GitHub to your local computer.

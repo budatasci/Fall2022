@@ -6,14 +6,14 @@ You can clone a repository from GitHub to make it easier to add or remove files,
 **How to Clone a Repository:**
 
 1) On GitHub.com, navigate to the main page of the repository.
-2) Above the list of files, click  Code 
+2) Above the list of files, click the green Code button.
 
-![code-button-1](https://user-images.githubusercontent.com/64284184/200860008-8868528e-ea5e-4451-8d70-49ea22602ea6.png)
-
+<img width="936" alt="Screen Shot 2022-11-09 at 12 17 41 PM" src="https://user-images.githubusercontent.com/64284184/200897181-d6b25c95-770f-4a1c-85fd-aad7c7c09ae4.png">
 
 3) Copy the URL for the repository.
+<img width="356" alt="Screen Shot 2022-11-09 at 12 16 00 PM" src="https://user-images.githubusercontent.com/64284184/200897403-9c1ae185-b5c0-4584-8024-a4c3b9daece9.png">
 
-![https-url-clone-cli-1](https://user-images.githubusercontent.com/64284184/200860079-ed4e4030-1d1c-4473-88cf-e892351a7236.png)
+
 
 4) Open Terminal.
 

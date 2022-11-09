@@ -1,9 +1,6 @@
 **About Cloning a Repository:**
 
-You can clone a repository from GitHub to your local computer to make it easier to fix merge conflicts, add or remove files, and push larger commits. When you clone a repository, you copy the repository from GitHub to your local machine.
-
-Cloning a repository pulls down a full copy of all the repository data that GitHub.com has at that point in time, including all versions of every file and folder for the project. You can push your changes to the remote repository on GitHub, or pull other people's changes from GitHub.
-
+You can clone a repository from GitHub to make it easier to add or remove files, and push larger commits. When you clone a repository, you copy the repository from GitHub to your local computer.
 
 
 **How to Clone a Repository:**

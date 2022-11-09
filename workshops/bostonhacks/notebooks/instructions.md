@@ -18,18 +18,18 @@ Cloning a repository pulls down a full copy of all the repository data that GitH
 
 ![https-url-clone-cli-1](https://user-images.githubusercontent.com/64284184/200860079-ed4e4030-1d1c-4473-88cf-e892351a7236.png)
 
-5) Open Terminal.
+4) Open Terminal.
 
 
-7) Change the current working directory to the location where you want the cloned directory
+5) Change the current working directory to the location where you want the cloned directory
 
 
-9) Type git clone, and then paste the URL you copied earlier.
+6) Type git clone, and then paste the URL you copied earlier.
 
 <img width="544" alt="Screen Shot 2022-11-09 at 9 43 05 AM" src="https://user-images.githubusercontent.com/64284184/200860289-7bf43373-dc97-4f2a-87f4-20de85b32798.png">
 
 
-11) Press Enter to create your local clone.
+7) Press Enter to create your local clone.
 
 <img width="663" alt="Screen Shot 2022-11-09 at 9 43 33 AM" src="https://user-images.githubusercontent.com/64284184/200860421-f1965915-fddf-4a64-a350-9cdaa5998bc5.png">
 

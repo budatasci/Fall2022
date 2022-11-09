@@ -1,4 +1,4 @@
-**About Cloning a Repository: **
+**About Cloning a Repository:**
 
 You can clone a repository from GitHub to your local computer to make it easier to fix merge conflicts, add or remove files, and push larger commits. When you clone a repository, you copy the repository from GitHub to your local machine.
 
